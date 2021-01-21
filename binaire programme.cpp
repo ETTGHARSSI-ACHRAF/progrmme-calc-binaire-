@@ -18,7 +18,7 @@ int Somme(int bin1[4],int bin2[4]){
     
      
   
-int main(){  
+int Bin(){  
 int bin[4],n,i;    
 system ("cls");  
 printf("Enter the number to convert: ");    
