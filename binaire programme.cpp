@@ -47,10 +47,10 @@ int bintoint (int biin)
     return _innt;
 }
 
-/*int main(){
+int main(){
 
 	return 0;
 	
 
 }
-*/
+
