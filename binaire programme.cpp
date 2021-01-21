@@ -40,7 +40,6 @@ int main(){
     int binarynum;
     printf("Enter a binary number: ");
     scanf("%ld", &binarynum);
-
     printf("Equivalent decimal number is: %d", binaryToDecimal(binarynum));
 	return 0;
 
