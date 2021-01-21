@@ -12,26 +12,26 @@ int Somme(int bin1[4],int bin2[4]){
 /*first function*/
 /*function type INT*/
 
-int binaryToDecimal(int binarynum)
+int bintoint(int biin)
 {
-    int decimalnum = 0, temp = 0, remainder;
-    while (binarynum!=0)
+    int _innt = 0, temp = 0, remainder;
+    while (biin!=0)
     {
-        remainder = binarynum % 10;
-        binarynum = binarynum / 10;
-        decimalnum = decimalnum + remainder*pow(2,temp);
+        remainder = biin % 10;
+        biin = biin / 10;
+        _innt = _innt+ remainder*pow(2,temp);
         temp++;
     }
-    return decimalnum;
+    return _innt;
 
 }
 
 int main(){
 
-    int binarynum;
+    int biin;
     printf("Enter a binary number: ");
-    scanf("%ld", &binarynum);
-    printf("Equivalent decimal number is: %d", binaryToDecimal(binarynum));
+    scanf("%ld", &biin);
+    printf("Equivalent decimal number is: %d", bintoint(biin));
 	return 0;
 
 
