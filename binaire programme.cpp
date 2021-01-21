@@ -18,8 +18,8 @@ int Somme(int bin1[4],int bin2[4]){
     
      
   
-int IntToBin(){  
-int bin[4],n,i;    
+int bin(){  
+int Bin[4],n,i;    
 system ("cls");  
 printf("Enter the number to convert: ");    
 scanf("%d",&n);    
@@ -31,7 +31,7 @@ n=n/2;
 printf("\nBinary of Given Number is=");    
 for(i=i-1;i>=0;i--)    
 {    
-printf("%d",bin[i]);    
+printf("%d",Bin[i]);    
 }    
 return 0;  
 }  
